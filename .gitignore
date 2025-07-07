@@ -1,0 +1,9 @@
+ideation.txt
+invoice_processor/.python-version
+invoice_processor/uv.lock
+invoice_processor/__pycache__/pydantic_model.cpython-313.pyc
+invoice_processor/build/lib/main.py
+invoice_processor/build/
+invoice_processor/invoice_agent/__pycache__/
+invoice_processor/.env
+.DS_Store
