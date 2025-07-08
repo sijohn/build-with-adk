@@ -7,3 +7,7 @@ invoice_processor/build/
 invoice_processor/invoice_agent/__pycache__/
 invoice_processor/.env
 .DS_Store
+doc_processor/uv.lock
+doc_processor/doc_processor_agent/__pycache__/
+doc_processor/.env
+doc_processor/__pycache__/
