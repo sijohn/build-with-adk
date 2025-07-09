@@ -1,6 +1,6 @@
-# Invoice Processor Agent Codelab
+# Receipt Processor Agent Codelab
 
-Welcome to the Invoice Processor Agent project! This document serves as a detailed guide and the basis for a codelab to help you understand and build a multi-agent system using the Google Agent Development Kit (ADK).
+Welcome to the Receipt Processor Agent project! This document serves as a detailed guide and the basis for a codelab to help you understand and build a multi-agent system using the Google Agent Development Kit (ADK).
 
 This agent automates the process of expense tracking by taking a receipt image, extracting its details, classifying the expense category, and logging it into a financial database in BigQuery.
 
@@ -37,10 +37,10 @@ A key feature of this project is its use of **multimodality**. The first agent i
 
 ## Project Structure
 
-The project code is organized into the following files within the `invoice_agent/` directory:
+The project code is organized into the following files within the `Receipt_agent/` directory:
 
 ```
-invoice_agent/
+Receipt_agent/
 ├── __init__.py           # Makes the directory a Python package.
 ├── agent.py              # Defines the core agents and their orchestration.
 ├── pydantic_model.py     # Defines the data structures (schemas) for the workflow.
@@ -244,7 +244,7 @@ You can also invoke the agent workflow from a simple Python script. Create a fil
 ```python
 # main.py
 import asyncio
-from invoice_agent.agent import root_agent
+from Receipt_agent.agent import root_agent
 
 async def main():
     # The input for the first agent in the sequence

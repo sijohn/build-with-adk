@@ -1,5 +1,0 @@
-uv init 
-
-uv add google-adk
-
-uv run adk create doc_processor_agent
